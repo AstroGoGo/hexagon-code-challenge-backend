@@ -17,7 +17,7 @@ INSERT INTO hexagon.employees (pos_id, full_name, date_hired) VALUES
 ((SELECT pos_id from hexagon.positions WHERE pos_name = 'DevOps Engineer'), 'Clint Eastwood', TO_DATE('2014-05-19', 'YYYY-MM-DD'));
 
 INSERT INTO hexagon.employees (pos_id, full_name, date_hired) VALUES
-((SELECT pos_id from hexagon.positions WHERE pos_name = 'Quality Control Tester'), 'Ann Margaret', TO_DATE('2010-07-22', 'YYYY-MM-DD'));
+((SELECT pos_id from hexagon.positions WHERE pos_name = 'Quality Control Tester'), 'Ann Margret', TO_DATE('2010-07-22', 'YYYY-MM-DD'));
 
 INSERT INTO hexagon.employees (pos_id, full_name, date_hired) VALUES
 ((SELECT pos_id from hexagon.positions WHERE pos_name = 'Quality Control Tester'), 'Debbie Gibson', TO_DATE('2020-11-16', 'YYYY-MM-DD'));
